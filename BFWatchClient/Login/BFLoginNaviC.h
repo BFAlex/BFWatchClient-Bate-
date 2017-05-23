@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BFLoginNaviC.h
 //  BFWatchClient
 //
 //  Created by Readboy_BFAlex on 2017/5/8.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BFLoginNaviC : UINavigationController
 
 @end
-

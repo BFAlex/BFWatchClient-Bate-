@@ -9,14 +9,31 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
+@property (nonatomic, strong) UIWindow *rootWindow;
 
 @end
 
 @implementation AppDelegate
 
+#pragma mark - property
+
+- (UIWindow *)rootWindow {
+    if (!_rootWindow) {
+        _rootWindow = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        self.window = _rootWindow;
+    }
+    
+    return _rootWindow;
+}
+
+#pragma mark - self recall
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self switchToLogin];
+    
+    
     return YES;
 }
 
@@ -45,6 +62,20 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - private
+
+- (void)switchToLogin {
+    BFLog(@"");
+    UIViewController *vc = [BFStoryboardTool viewControllerForStoryboardName:@"BFLoginSB" andIdentifier:@"BFLoginNaviCID"];
+    
+    self.rootWindow.rootViewController = vc;
+    [self.rootWindow makeKeyAndVisible];
+}
+
+- (void)switchToOnLine {
+    
 }
 
 

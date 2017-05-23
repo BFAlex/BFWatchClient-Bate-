@@ -1,0 +1,15 @@
+PODS:
+  - CocoaAsyncSocket (7.6.0)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 9c7beeb989762247f97080f2bcb529b4c1736b41
+
+COCOAPODS: 1.2.0

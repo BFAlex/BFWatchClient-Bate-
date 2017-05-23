@@ -9,12 +9,31 @@
 /* Begin PBXBuildFile section */
 		A83998461EC0932B001C9B30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A83998451EC0932B001C9B30 /* main.m */; };
 		A83998491EC0932B001C9B30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A83998481EC0932B001C9B30 /* AppDelegate.m */; };
-		A839984C1EC0932B001C9B30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A839984B1EC0932B001C9B30 /* ViewController.m */; };
-		A839984F1EC0932B001C9B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A839984D1EC0932B001C9B30 /* Main.storyboard */; };
 		A83998511EC0932B001C9B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83998501EC0932B001C9B30 /* Assets.xcassets */; };
 		A83998541EC0932B001C9B30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83998521EC0932B001C9B30 /* LaunchScreen.storyboard */; };
 		A839985F1EC0932B001C9B30 /* BFWatchClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A839985E1EC0932B001C9B30 /* BFWatchClientTests.m */; };
 		A839986A1EC0932B001C9B30 /* BFWatchClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A83998691EC0932B001C9B30 /* BFWatchClientUITests.m */; };
+		A839987E1EC099CA001C9B30 /* BFLoginSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A839987D1EC099CA001C9B30 /* BFLoginSB.storyboard */; };
+		A83998811EC09A2C001C9B30 /* BFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A83998801EC09A2C001C9B30 /* BFBaseViewController.m */; };
+		A83998841EC09A4E001C9B30 /* BFLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A83998831EC09A4E001C9B30 /* BFLoginVC.m */; };
+		A83998871EC09B4D001C9B30 /* BFLoginNaviC.m in Sources */ = {isa = PBXBuildFile; fileRef = A83998861EC09B4D001C9B30 /* BFLoginNaviC.m */; };
+		A85999591ED2B52B005F21B6 /* BFSocketStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A85999581ED2B52B005F21B6 /* BFSocketStream.m */; };
+		A85999621ED2CA2A005F21B6 /* BFStoryboardTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A85999611ED2CA2A005F21B6 /* BFStoryboardTool.m */; };
+		A85999661ED2CBB1005F21B6 /* BFAppTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = A85999641ED2CBB1005F21B6 /* BFAppTheme.m */; };
+		A85999691ED2CF5D005F21B6 /* BFWPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A85999681ED2CF5D005F21B6 /* BFWPManager.m */; };
+		A859996C1ED2D8CC005F21B6 /* BFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A859996B1ED2D8CC005F21B6 /* BFAlertView.m */; };
+		A85999701ED2E088005F21B6 /* BFHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A859996F1ED2E088005F21B6 /* BFHUD.m */; };
+		A8A21E741EC94B7A000DFBB4 /* UIView+BFCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E731EC94B7A000DFBB4 /* UIView+BFCustom.m */; };
+		A8A21E771EC94FD7000DFBB4 /* UIViewController+BFCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E761EC94FD7000DFBB4 /* UIViewController+BFCustom.m */; };
+		A8A21E7F1EC9782D000DFBB4 /* BFNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E7E1EC9782D000DFBB4 /* BFNavigationBar.m */; };
+		A8A21E811EC9784D000DFBB4 /* BFNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8A21E801EC9784D000DFBB4 /* BFNavigationBar.xib */; };
+		A8A21E841EC980FC000DFBB4 /* BFRegisterPhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E831EC980FC000DFBB4 /* BFRegisterPhoneVC.m */; };
+		A8A21E871EC9922C000DFBB4 /* UIButton+BFCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E861EC9922C000DFBB4 /* UIButton+BFCustom.m */; };
+		A8A21E8A1EC9A054000DFBB4 /* BFRegisterVerificationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E891EC9A054000DFBB4 /* BFRegisterVerificationVC.m */; };
+		A8A21E911EC9BBF5000DFBB4 /* BFRegisterProtocolVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E901EC9BBF5000DFBB4 /* BFRegisterProtocolVC.m */; };
+		A8A21E941EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E931EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.m */; };
+		A8A21E971EC9C097000DFBB4 /* BFForgotPwdResetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E961EC9C097000DFBB4 /* BFForgotPwdResetVC.m */; };
+		DA0E76BC238BEF79182B5531 /* libPods-BFWatchClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A31C1672958175F321B6D1A1 /* libPods-BFWatchClient.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +54,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49F962215313B0FF75764F07 /* Pods-BFWatchClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BFWatchClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BFWatchClient/Pods-BFWatchClient.debug.xcconfig"; sourceTree = "<group>"; };
+		700DC18F87BCD8EEC34879E1 /* Pods-BFWatchClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BFWatchClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-BFWatchClient/Pods-BFWatchClient.release.xcconfig"; sourceTree = "<group>"; };
+		A31C1672958175F321B6D1A1 /* libPods-BFWatchClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BFWatchClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83998411EC0932B001C9B30 /* BFWatchClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFWatchClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83998451EC0932B001C9B30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A83998471EC0932B001C9B30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A83998481EC0932B001C9B30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A839984A1EC0932B001C9B30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A839984B1EC0932B001C9B30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A839984E1EC0932B001C9B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A83998471EC0932B001C9B30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		A83998481EC0932B001C9B30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		A83998501EC0932B001C9B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A83998531EC0932B001C9B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A83998551EC0932B001C9B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +70,48 @@
 		A83998651EC0932B001C9B30 /* BFWatchClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFWatchClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83998691EC0932B001C9B30 /* BFWatchClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFWatchClientUITests.m; sourceTree = "<group>"; };
 		A839986B1EC0932B001C9B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83998791EC094C0001C9B30 /* BFPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFPrefixHeader.pch; sourceTree = "<group>"; };
+		A839987D1EC099CA001C9B30 /* BFLoginSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BFLoginSB.storyboard; sourceTree = "<group>"; };
+		A839987F1EC09A2C001C9B30 /* BFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFBaseViewController.h; sourceTree = "<group>"; };
+		A83998801EC09A2C001C9B30 /* BFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFBaseViewController.m; sourceTree = "<group>"; };
+		A83998821EC09A4E001C9B30 /* BFLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFLoginVC.h; sourceTree = "<group>"; };
+		A83998831EC09A4E001C9B30 /* BFLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFLoginVC.m; sourceTree = "<group>"; };
+		A83998851EC09B4D001C9B30 /* BFLoginNaviC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFLoginNaviC.h; sourceTree = "<group>"; };
+		A83998861EC09B4D001C9B30 /* BFLoginNaviC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFLoginNaviC.m; sourceTree = "<group>"; };
+		A85999571ED2B52B005F21B6 /* BFSocketStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFSocketStream.h; sourceTree = "<group>"; };
+		A85999581ED2B52B005F21B6 /* BFSocketStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFSocketStream.m; sourceTree = "<group>"; };
+		A859995B1ED2C2B1005F21B6 /* AppKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppKey.h; sourceTree = "<group>"; };
+		A859995C1ED2C45F005F21B6 /* AppLimit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppLimit.h; sourceTree = "<group>"; };
+		A85999601ED2CA2A005F21B6 /* BFStoryboardTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFStoryboardTool.h; sourceTree = "<group>"; };
+		A85999611ED2CA2A005F21B6 /* BFStoryboardTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFStoryboardTool.m; sourceTree = "<group>"; };
+		A85999631ED2CBB1005F21B6 /* BFAppTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAppTheme.h; sourceTree = "<group>"; };
+		A85999641ED2CBB1005F21B6 /* BFAppTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFAppTheme.m; sourceTree = "<group>"; };
+		A85999651ED2CBB1005F21B6 /* BFAppThemeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAppThemeDef.h; sourceTree = "<group>"; };
+		A85999671ED2CF5D005F21B6 /* BFWPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFWPManager.h; sourceTree = "<group>"; };
+		A85999681ED2CF5D005F21B6 /* BFWPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFWPManager.m; sourceTree = "<group>"; };
+		A859996A1ED2D8CC005F21B6 /* BFAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAlertView.h; sourceTree = "<group>"; };
+		A859996B1ED2D8CC005F21B6 /* BFAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFAlertView.m; sourceTree = "<group>"; };
+		A859996E1ED2E088005F21B6 /* BFHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFHUD.h; sourceTree = "<group>"; };
+		A859996F1ED2E088005F21B6 /* BFHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFHUD.m; sourceTree = "<group>"; };
+		A8A21E721EC94B7A000DFBB4 /* UIView+BFCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BFCustom.h"; sourceTree = "<group>"; };
+		A8A21E731EC94B7A000DFBB4 /* UIView+BFCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BFCustom.m"; sourceTree = "<group>"; };
+		A8A21E751EC94FD7000DFBB4 /* UIViewController+BFCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BFCustom.h"; sourceTree = "<group>"; };
+		A8A21E761EC94FD7000DFBB4 /* UIViewController+BFCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BFCustom.m"; sourceTree = "<group>"; };
+		A8A21E7D1EC9782D000DFBB4 /* BFNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFNavigationBar.h; sourceTree = "<group>"; };
+		A8A21E7E1EC9782D000DFBB4 /* BFNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFNavigationBar.m; sourceTree = "<group>"; };
+		A8A21E801EC9784D000DFBB4 /* BFNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFNavigationBar.xib; sourceTree = "<group>"; };
+		A8A21E821EC980FC000DFBB4 /* BFRegisterPhoneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFRegisterPhoneVC.h; sourceTree = "<group>"; };
+		A8A21E831EC980FC000DFBB4 /* BFRegisterPhoneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFRegisterPhoneVC.m; sourceTree = "<group>"; };
+		A8A21E851EC9922C000DFBB4 /* UIButton+BFCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BFCustom.h"; sourceTree = "<group>"; };
+		A8A21E861EC9922C000DFBB4 /* UIButton+BFCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BFCustom.m"; sourceTree = "<group>"; };
+		A8A21E881EC9A054000DFBB4 /* BFRegisterVerificationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFRegisterVerificationVC.h; sourceTree = "<group>"; };
+		A8A21E891EC9A054000DFBB4 /* BFRegisterVerificationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFRegisterVerificationVC.m; sourceTree = "<group>"; };
+		A8A21E8F1EC9BBF5000DFBB4 /* BFRegisterProtocolVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFRegisterProtocolVC.h; sourceTree = "<group>"; };
+		A8A21E901EC9BBF5000DFBB4 /* BFRegisterProtocolVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFRegisterProtocolVC.m; sourceTree = "<group>"; };
+		A8A21E921EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFForgotPwdPhoneVC.h; sourceTree = "<group>"; };
+		A8A21E931EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFForgotPwdPhoneVC.m; sourceTree = "<group>"; };
+		A8A21E951EC9C097000DFBB4 /* BFForgotPwdResetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFForgotPwdResetVC.h; sourceTree = "<group>"; };
+		A8A21E961EC9C097000DFBB4 /* BFForgotPwdResetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFForgotPwdResetVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA0E76BC238BEF79182B5531 /* libPods-BFWatchClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +147,8 @@
 				A839985D1EC0932B001C9B30 /* BFWatchClientTests */,
 				A83998681EC0932B001C9B30 /* BFWatchClientUITests */,
 				A83998421EC0932B001C9B30 /* Products */,
+				BA6421205D114C2A2AF88B69 /* Pods */,
+				DF54DF0ADBA4D776572B01F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +165,10 @@
 		A83998431EC0932B001C9B30 /* BFWatchClient */ = {
 			isa = PBXGroup;
 			children = (
-				A83998471EC0932B001C9B30 /* AppDelegate.h */,
-				A83998481EC0932B001C9B30 /* AppDelegate.m */,
-				A839984A1EC0932B001C9B30 /* ViewController.h */,
-				A839984B1EC0932B001C9B30 /* ViewController.m */,
-				A839984D1EC0932B001C9B30 /* Main.storyboard */,
-				A83998501EC0932B001C9B30 /* Assets.xcassets */,
-				A83998521EC0932B001C9B30 /* LaunchScreen.storyboard */,
-				A83998551EC0932B001C9B30 /* Info.plist */,
+				A8A21E711EC94A94000DFBB4 /* Category */,
+				A83998781EC09456001C9B30 /* Login(登录模块) */,
+				A83998771EC0936B001C9B30 /* Common */,
+				A85999541ED2B39A005F21B6 /* Other */,
 				A83998441EC0932B001C9B30 /* Supporting Files */,
 			);
 			path = BFWatchClient;
@@ -117,7 +177,13 @@
 		A83998441EC0932B001C9B30 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A8A21E7B1EC977BE000DFBB4 /* View */,
+				A839987A1EC09887001C9B30 /* Storyboard */,
+				A83998501EC0932B001C9B30 /* Assets.xcassets */,
+				A83998521EC0932B001C9B30 /* LaunchScreen.storyboard */,
+				A83998551EC0932B001C9B30 /* Info.plist */,
 				A83998451EC0932B001C9B30 /* main.m */,
+				A83998791EC094C0001C9B30 /* BFPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +206,166 @@
 			path = BFWatchClientUITests;
 			sourceTree = "<group>";
 		};
+		A83998771EC0936B001C9B30 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A83998471EC0932B001C9B30 /* AppDelegate.h */,
+				A83998481EC0932B001C9B30 /* AppDelegate.m */,
+				A839987F1EC09A2C001C9B30 /* BFBaseViewController.h */,
+				A83998801EC09A2C001C9B30 /* BFBaseViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A83998781EC09456001C9B30 /* Login(登录模块) */ = {
+			isa = PBXGroup;
+			children = (
+				A83998851EC09B4D001C9B30 /* BFLoginNaviC.h */,
+				A83998861EC09B4D001C9B30 /* BFLoginNaviC.m */,
+				A83998821EC09A4E001C9B30 /* BFLoginVC.h */,
+				A83998831EC09A4E001C9B30 /* BFLoginVC.m */,
+				A8A21E821EC980FC000DFBB4 /* BFRegisterPhoneVC.h */,
+				A8A21E831EC980FC000DFBB4 /* BFRegisterPhoneVC.m */,
+				A8A21E881EC9A054000DFBB4 /* BFRegisterVerificationVC.h */,
+				A8A21E891EC9A054000DFBB4 /* BFRegisterVerificationVC.m */,
+				A8A21E8F1EC9BBF5000DFBB4 /* BFRegisterProtocolVC.h */,
+				A8A21E901EC9BBF5000DFBB4 /* BFRegisterProtocolVC.m */,
+				A8A21E921EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.h */,
+				A8A21E931EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.m */,
+				A8A21E951EC9C097000DFBB4 /* BFForgotPwdResetVC.h */,
+				A8A21E961EC9C097000DFBB4 /* BFForgotPwdResetVC.m */,
+			);
+			name = "Login(登录模块)";
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A839987A1EC09887001C9B30 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A839987D1EC099CA001C9B30 /* BFLoginSB.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A85999541ED2B39A005F21B6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A859995A1ED2C271005F21B6 /* Definition */,
+				A85999551ED2B3F9005F21B6 /* BFWPFramework */,
+				A8A21E8B1EC9A2F7000DFBB4 /* Tool */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A85999551ED2B3F9005F21B6 /* BFWPFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A85999571ED2B52B005F21B6 /* BFSocketStream.h */,
+				A85999581ED2B52B005F21B6 /* BFSocketStream.m */,
+				A85999671ED2CF5D005F21B6 /* BFWPManager.h */,
+				A85999681ED2CF5D005F21B6 /* BFWPManager.m */,
+			);
+			path = BFWPFramework;
+			sourceTree = "<group>";
+		};
+		A859995A1ED2C271005F21B6 /* Definition */ = {
+			isa = PBXGroup;
+			children = (
+				A85999631ED2CBB1005F21B6 /* BFAppTheme.h */,
+				A85999641ED2CBB1005F21B6 /* BFAppTheme.m */,
+				A85999651ED2CBB1005F21B6 /* BFAppThemeDef.h */,
+				A859995B1ED2C2B1005F21B6 /* AppKey.h */,
+				A859995C1ED2C45F005F21B6 /* AppLimit.h */,
+			);
+			path = Definition;
+			sourceTree = "<group>";
+		};
+		A859995E1ED2C614005F21B6 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				A859996A1ED2D8CC005F21B6 /* BFAlertView.h */,
+				A859996B1ED2D8CC005F21B6 /* BFAlertView.m */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		A859995F1ED2C9E4005F21B6 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A85999601ED2CA2A005F21B6 /* BFStoryboardTool.h */,
+				A85999611ED2CA2A005F21B6 /* BFStoryboardTool.m */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A859996D1ED2DDC9005F21B6 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				A859996E1ED2E088005F21B6 /* BFHUD.h */,
+				A859996F1ED2E088005F21B6 /* BFHUD.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		A8A21E711EC94A94000DFBB4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A8A21E721EC94B7A000DFBB4 /* UIView+BFCustom.h */,
+				A8A21E731EC94B7A000DFBB4 /* UIView+BFCustom.m */,
+				A8A21E751EC94FD7000DFBB4 /* UIViewController+BFCustom.h */,
+				A8A21E761EC94FD7000DFBB4 /* UIViewController+BFCustom.m */,
+				A8A21E851EC9922C000DFBB4 /* UIButton+BFCustom.h */,
+				A8A21E861EC9922C000DFBB4 /* UIButton+BFCustom.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A8A21E7B1EC977BE000DFBB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8A21E7C1EC977E1000DFBB4 /* Navigation(导航) */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8A21E7C1EC977E1000DFBB4 /* Navigation(导航) */ = {
+			isa = PBXGroup;
+			children = (
+				A8A21E7D1EC9782D000DFBB4 /* BFNavigationBar.h */,
+				A8A21E7E1EC9782D000DFBB4 /* BFNavigationBar.m */,
+				A8A21E801EC9784D000DFBB4 /* BFNavigationBar.xib */,
+			);
+			name = "Navigation(导航)";
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		A8A21E8B1EC9A2F7000DFBB4 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A859996D1ED2DDC9005F21B6 /* HUD */,
+				A859995F1ED2C9E4005F21B6 /* Storyboard */,
+				A859995E1ED2C614005F21B6 /* AlertView */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		BA6421205D114C2A2AF88B69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49F962215313B0FF75764F07 /* Pods-BFWatchClient.debug.xcconfig */,
+				700DC18F87BCD8EEC34879E1 /* Pods-BFWatchClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF54DF0ADBA4D776572B01F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A31C1672958175F321B6D1A1 /* libPods-BFWatchClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +373,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A839986E1EC0932B001C9B30 /* Build configuration list for PBXNativeTarget "BFWatchClient" */;
 			buildPhases = (
+				B0AE0D13C8B5E471F7BF6A92 /* [CP] Check Pods Manifest.lock */,
 				A839983D1EC0932B001C9B30 /* Sources */,
 				A839983E1EC0932B001C9B30 /* Frameworks */,
 				A839983F1EC0932B001C9B30 /* Resources */,
+				8B82BDD4C12C24342FA5D8DC /* [CP] Embed Pods Frameworks */,
+				F0F7C84D087341EF7BAE4619 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,8 +479,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A83998541EC0932B001C9B30 /* LaunchScreen.storyboard in Resources */,
+				A8A21E811EC9784D000DFBB4 /* BFNavigationBar.xib in Resources */,
 				A83998511EC0932B001C9B30 /* Assets.xcassets in Resources */,
-				A839984F1EC0932B001C9B30 /* Main.storyboard in Resources */,
+				A839987E1EC099CA001C9B30 /* BFLoginSB.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +501,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B82BDD4C12C24342FA5D8DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BFWatchClient/Pods-BFWatchClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0AE0D13C8B5E471F7BF6A92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F7C84D087341EF7BAE4619 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BFWatchClient/Pods-BFWatchClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A839983D1EC0932B001C9B30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A839984C1EC0932B001C9B30 /* ViewController.m in Sources */,
 				A83998491EC0932B001C9B30 /* AppDelegate.m in Sources */,
+				A8A21E941EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.m in Sources */,
+				A8A21E871EC9922C000DFBB4 /* UIButton+BFCustom.m in Sources */,
+				A8A21E841EC980FC000DFBB4 /* BFRegisterPhoneVC.m in Sources */,
+				A8A21E771EC94FD7000DFBB4 /* UIViewController+BFCustom.m in Sources */,
 				A83998461EC0932B001C9B30 /* main.m in Sources */,
+				A83998841EC09A4E001C9B30 /* BFLoginVC.m in Sources */,
+				A859996C1ED2D8CC005F21B6 /* BFAlertView.m in Sources */,
+				A85999661ED2CBB1005F21B6 /* BFAppTheme.m in Sources */,
+				A8A21E8A1EC9A054000DFBB4 /* BFRegisterVerificationVC.m in Sources */,
+				A85999591ED2B52B005F21B6 /* BFSocketStream.m in Sources */,
+				A85999701ED2E088005F21B6 /* BFHUD.m in Sources */,
+				A8A21E911EC9BBF5000DFBB4 /* BFRegisterProtocolVC.m in Sources */,
+				A83998811EC09A2C001C9B30 /* BFBaseViewController.m in Sources */,
+				A83998871EC09B4D001C9B30 /* BFLoginNaviC.m in Sources */,
+				A8A21E741EC94B7A000DFBB4 /* UIView+BFCustom.m in Sources */,
+				A85999691ED2CF5D005F21B6 /* BFWPManager.m in Sources */,
+				A8A21E7F1EC9782D000DFBB4 /* BFNavigationBar.m in Sources */,
+				A8A21E971EC9C097000DFBB4 /* BFForgotPwdResetVC.m in Sources */,
+				A85999621ED2CA2A005F21B6 /* BFStoryboardTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +609,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A839984D1EC0932B001C9B30 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A839984E1EC0932B001C9B30 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A83998521EC0932B001C9B30 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,10 +712,13 @@
 		};
 		A839986F1EC0932B001C9B30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F962215313B0FF75764F07 /* Pods-BFWatchClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2J5C844G24;
+				GCC_PREFIX_HEADER = BFWatchClient/BFPrefixHeader.pch;
 				INFOPLIST_FILE = BFWatchClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bf.BFWatchClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +727,13 @@
 		};
 		A83998701EC0932B001C9B30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700DC18F87BCD8EEC34879E1 /* Pods-BFWatchClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2J5C844G24;
+				GCC_PREFIX_HEADER = BFWatchClient/BFPrefixHeader.pch;
 				INFOPLIST_FILE = BFWatchClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bf.BFWatchClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +809,7 @@
 				A83998701EC0932B001C9B30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A83998711EC0932B001C9B30 /* Build configuration list for PBXNativeTarget "BFWatchClientTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +818,7 @@
 				A83998731EC0932B001C9B30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A83998741EC0932B001C9B30 /* Build configuration list for PBXNativeTarget "BFWatchClientUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +827,7 @@
 				A83998761EC0932B001C9B30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
