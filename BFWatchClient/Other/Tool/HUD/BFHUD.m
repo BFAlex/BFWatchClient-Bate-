@@ -12,7 +12,7 @@
 
 @implementation BFHUD
 
-+ (void)showWarnMessage:(NSString *)msg {
++ (void)showTipMessage:(NSString *)msg {
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"温馨提示" message:msg delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
     [alert show];
 }

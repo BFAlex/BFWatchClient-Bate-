@@ -17,12 +17,12 @@
 		A83998811EC09A2C001C9B30 /* BFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A83998801EC09A2C001C9B30 /* BFBaseViewController.m */; };
 		A83998841EC09A4E001C9B30 /* BFLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A83998831EC09A4E001C9B30 /* BFLoginVC.m */; };
 		A83998871EC09B4D001C9B30 /* BFLoginNaviC.m in Sources */ = {isa = PBXBuildFile; fileRef = A83998861EC09B4D001C9B30 /* BFLoginNaviC.m */; };
-		A85999591ED2B52B005F21B6 /* BFSocketStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A85999581ED2B52B005F21B6 /* BFSocketStream.m */; };
 		A85999621ED2CA2A005F21B6 /* BFStoryboardTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A85999611ED2CA2A005F21B6 /* BFStoryboardTool.m */; };
 		A85999661ED2CBB1005F21B6 /* BFAppTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = A85999641ED2CBB1005F21B6 /* BFAppTheme.m */; };
-		A85999691ED2CF5D005F21B6 /* BFWPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A85999681ED2CF5D005F21B6 /* BFWPManager.m */; };
 		A859996C1ED2D8CC005F21B6 /* BFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A859996B1ED2D8CC005F21B6 /* BFAlertView.m */; };
 		A85999701ED2E088005F21B6 /* BFHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A859996F1ED2E088005F21B6 /* BFHUD.m */; };
+		A85999741ED40E7C005F21B6 /* BFAppString.m in Sources */ = {isa = PBXBuildFile; fileRef = A85999731ED40E7C005F21B6 /* BFAppString.m */; };
+		A85999771ED51051005F21B6 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A85999761ED51051005F21B6 /* TestClass.m */; };
 		A8A21E741EC94B7A000DFBB4 /* UIView+BFCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E731EC94B7A000DFBB4 /* UIView+BFCustom.m */; };
 		A8A21E771EC94FD7000DFBB4 /* UIViewController+BFCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E761EC94FD7000DFBB4 /* UIViewController+BFCustom.m */; };
 		A8A21E7F1EC9782D000DFBB4 /* BFNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E7E1EC9782D000DFBB4 /* BFNavigationBar.m */; };
@@ -33,6 +33,12 @@
 		A8A21E911EC9BBF5000DFBB4 /* BFRegisterProtocolVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E901EC9BBF5000DFBB4 /* BFRegisterProtocolVC.m */; };
 		A8A21E941EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E931EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.m */; };
 		A8A21E971EC9C097000DFBB4 /* BFForgotPwdResetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A21E961EC9C097000DFBB4 /* BFForgotPwdResetVC.m */; };
+		A8E066B31ED52F540028B7A9 /* GCDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E066B21ED52F540028B7A9 /* GCDMulticastDelegate.m */; };
+		A8E066BE1ED687700028B7A9 /* BFWPStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E066BD1ED687700028B7A9 /* BFWPStream.m */; };
+		A8E066C11ED7B5FD0028B7A9 /* BFWPSingleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E066C01ED7B5FD0028B7A9 /* BFWPSingleManager.m */; };
+		A8E066C51ED7FF2F0028B7A9 /* BFEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E066C41ED7FF2F0028B7A9 /* BFEncrypt.m */; };
+		A8E066C91ED923E80028B7A9 /* BFWPParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E066C81ED923E80028B7A9 /* BFWPParser.m */; };
+		A8E066CD1ED959FD0028B7A9 /* NSDictionary+BFJson.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E066CC1ED959FD0028B7A9 /* NSDictionary+BFJson.m */; };
 		DA0E76BC238BEF79182B5531 /* libPods-BFWatchClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A31C1672958175F321B6D1A1 /* libPods-BFWatchClient.a */; };
 /* End PBXBuildFile section */
 
@@ -78,8 +84,6 @@
 		A83998831EC09A4E001C9B30 /* BFLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFLoginVC.m; sourceTree = "<group>"; };
 		A83998851EC09B4D001C9B30 /* BFLoginNaviC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFLoginNaviC.h; sourceTree = "<group>"; };
 		A83998861EC09B4D001C9B30 /* BFLoginNaviC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFLoginNaviC.m; sourceTree = "<group>"; };
-		A85999571ED2B52B005F21B6 /* BFSocketStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFSocketStream.h; sourceTree = "<group>"; };
-		A85999581ED2B52B005F21B6 /* BFSocketStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFSocketStream.m; sourceTree = "<group>"; };
 		A859995B1ED2C2B1005F21B6 /* AppKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppKey.h; sourceTree = "<group>"; };
 		A859995C1ED2C45F005F21B6 /* AppLimit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppLimit.h; sourceTree = "<group>"; };
 		A85999601ED2CA2A005F21B6 /* BFStoryboardTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFStoryboardTool.h; sourceTree = "<group>"; };
@@ -87,12 +91,14 @@
 		A85999631ED2CBB1005F21B6 /* BFAppTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAppTheme.h; sourceTree = "<group>"; };
 		A85999641ED2CBB1005F21B6 /* BFAppTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFAppTheme.m; sourceTree = "<group>"; };
 		A85999651ED2CBB1005F21B6 /* BFAppThemeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAppThemeDef.h; sourceTree = "<group>"; };
-		A85999671ED2CF5D005F21B6 /* BFWPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFWPManager.h; sourceTree = "<group>"; };
-		A85999681ED2CF5D005F21B6 /* BFWPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFWPManager.m; sourceTree = "<group>"; };
 		A859996A1ED2D8CC005F21B6 /* BFAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAlertView.h; sourceTree = "<group>"; };
 		A859996B1ED2D8CC005F21B6 /* BFAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFAlertView.m; sourceTree = "<group>"; };
 		A859996E1ED2E088005F21B6 /* BFHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFHUD.h; sourceTree = "<group>"; };
 		A859996F1ED2E088005F21B6 /* BFHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFHUD.m; sourceTree = "<group>"; };
+		A85999721ED40E7C005F21B6 /* BFAppString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAppString.h; sourceTree = "<group>"; };
+		A85999731ED40E7C005F21B6 /* BFAppString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFAppString.m; sourceTree = "<group>"; };
+		A85999751ED51051005F21B6 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		A85999761ED51051005F21B6 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		A8A21E721EC94B7A000DFBB4 /* UIView+BFCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BFCustom.h"; sourceTree = "<group>"; };
 		A8A21E731EC94B7A000DFBB4 /* UIView+BFCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BFCustom.m"; sourceTree = "<group>"; };
 		A8A21E751EC94FD7000DFBB4 /* UIViewController+BFCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BFCustom.h"; sourceTree = "<group>"; };
@@ -112,6 +118,18 @@
 		A8A21E931EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFForgotPwdPhoneVC.m; sourceTree = "<group>"; };
 		A8A21E951EC9C097000DFBB4 /* BFForgotPwdResetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFForgotPwdResetVC.h; sourceTree = "<group>"; };
 		A8A21E961EC9C097000DFBB4 /* BFForgotPwdResetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFForgotPwdResetVC.m; sourceTree = "<group>"; };
+		A8E066B11ED52F540028B7A9 /* GCDMulticastDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDMulticastDelegate.h; sourceTree = "<group>"; };
+		A8E066B21ED52F540028B7A9 /* GCDMulticastDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDMulticastDelegate.m; sourceTree = "<group>"; };
+		A8E066BC1ED687700028B7A9 /* BFWPStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFWPStream.h; sourceTree = "<group>"; };
+		A8E066BD1ED687700028B7A9 /* BFWPStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFWPStream.m; sourceTree = "<group>"; };
+		A8E066BF1ED7B5FD0028B7A9 /* BFWPSingleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFWPSingleManager.h; sourceTree = "<group>"; };
+		A8E066C01ED7B5FD0028B7A9 /* BFWPSingleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFWPSingleManager.m; sourceTree = "<group>"; };
+		A8E066C31ED7FF2F0028B7A9 /* BFEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFEncrypt.h; sourceTree = "<group>"; };
+		A8E066C41ED7FF2F0028B7A9 /* BFEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFEncrypt.m; sourceTree = "<group>"; };
+		A8E066C71ED923E80028B7A9 /* BFWPParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFWPParser.h; sourceTree = "<group>"; };
+		A8E066C81ED923E80028B7A9 /* BFWPParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFWPParser.m; sourceTree = "<group>"; };
+		A8E066CB1ED959FD0028B7A9 /* NSDictionary+BFJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BFJson.h"; sourceTree = "<group>"; };
+		A8E066CC1ED959FD0028B7A9 /* NSDictionary+BFJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BFJson.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,13 +195,13 @@
 		A83998441EC0932B001C9B30 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A83998791EC094C0001C9B30 /* BFPrefixHeader.pch */,
 				A8A21E7B1EC977BE000DFBB4 /* View */,
 				A839987A1EC09887001C9B30 /* Storyboard */,
 				A83998501EC0932B001C9B30 /* Assets.xcassets */,
 				A83998521EC0932B001C9B30 /* LaunchScreen.storyboard */,
 				A83998551EC0932B001C9B30 /* Info.plist */,
 				A83998451EC0932B001C9B30 /* main.m */,
-				A83998791EC094C0001C9B30 /* BFPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -220,20 +238,20 @@
 		A83998781EC09456001C9B30 /* Login(登录模块) */ = {
 			isa = PBXGroup;
 			children = (
+				A8A21E921EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.h */,
+				A8A21E931EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.m */,
+				A8A21E951EC9C097000DFBB4 /* BFForgotPwdResetVC.h */,
+				A8A21E961EC9C097000DFBB4 /* BFForgotPwdResetVC.m */,
 				A83998851EC09B4D001C9B30 /* BFLoginNaviC.h */,
 				A83998861EC09B4D001C9B30 /* BFLoginNaviC.m */,
 				A83998821EC09A4E001C9B30 /* BFLoginVC.h */,
 				A83998831EC09A4E001C9B30 /* BFLoginVC.m */,
 				A8A21E821EC980FC000DFBB4 /* BFRegisterPhoneVC.h */,
 				A8A21E831EC980FC000DFBB4 /* BFRegisterPhoneVC.m */,
-				A8A21E881EC9A054000DFBB4 /* BFRegisterVerificationVC.h */,
-				A8A21E891EC9A054000DFBB4 /* BFRegisterVerificationVC.m */,
 				A8A21E8F1EC9BBF5000DFBB4 /* BFRegisterProtocolVC.h */,
 				A8A21E901EC9BBF5000DFBB4 /* BFRegisterProtocolVC.m */,
-				A8A21E921EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.h */,
-				A8A21E931EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.m */,
-				A8A21E951EC9C097000DFBB4 /* BFForgotPwdResetVC.h */,
-				A8A21E961EC9C097000DFBB4 /* BFForgotPwdResetVC.m */,
+				A8A21E881EC9A054000DFBB4 /* BFRegisterVerificationVC.h */,
+				A8A21E891EC9A054000DFBB4 /* BFRegisterVerificationVC.m */,
 			);
 			name = "Login(登录模块)";
 			path = Login;
@@ -250,22 +268,15 @@
 		A85999541ED2B39A005F21B6 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				A8E066CA1ED959120028B7A9 /* Category */,
+				A8E066BB1ED687370028B7A9 /* BFWPFramework */,
+				A8E066B01ED52F2D0028B7A9 /* Utilites */,
 				A859995A1ED2C271005F21B6 /* Definition */,
-				A85999551ED2B3F9005F21B6 /* BFWPFramework */,
 				A8A21E8B1EC9A2F7000DFBB4 /* Tool */,
+				A85999751ED51051005F21B6 /* TestClass.h */,
+				A85999761ED51051005F21B6 /* TestClass.m */,
 			);
 			path = Other;
-			sourceTree = "<group>";
-		};
-		A85999551ED2B3F9005F21B6 /* BFWPFramework */ = {
-			isa = PBXGroup;
-			children = (
-				A85999571ED2B52B005F21B6 /* BFSocketStream.h */,
-				A85999581ED2B52B005F21B6 /* BFSocketStream.m */,
-				A85999671ED2CF5D005F21B6 /* BFWPManager.h */,
-				A85999681ED2CF5D005F21B6 /* BFWPManager.m */,
-			);
-			path = BFWPFramework;
 			sourceTree = "<group>";
 		};
 		A859995A1ED2C271005F21B6 /* Definition */ = {
@@ -276,6 +287,8 @@
 				A85999651ED2CBB1005F21B6 /* BFAppThemeDef.h */,
 				A859995B1ED2C2B1005F21B6 /* AppKey.h */,
 				A859995C1ED2C45F005F21B6 /* AppLimit.h */,
+				A85999721ED40E7C005F21B6 /* BFAppString.h */,
+				A85999731ED40E7C005F21B6 /* BFAppString.m */,
 			);
 			path = Definition;
 			sourceTree = "<group>";
@@ -347,6 +360,55 @@
 				A859995E1ED2C614005F21B6 /* AlertView */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		A8E066B01ED52F2D0028B7A9 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				A8E066B11ED52F540028B7A9 /* GCDMulticastDelegate.h */,
+				A8E066B21ED52F540028B7A9 /* GCDMulticastDelegate.m */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		A8E066BB1ED687370028B7A9 /* BFWPFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A8E066C61ED923B10028B7A9 /* DataParser */,
+				A8E066C21ED7FEFA0028B7A9 /* Encrypt */,
+				A8E066BC1ED687700028B7A9 /* BFWPStream.h */,
+				A8E066BD1ED687700028B7A9 /* BFWPStream.m */,
+				A8E066BF1ED7B5FD0028B7A9 /* BFWPSingleManager.h */,
+				A8E066C01ED7B5FD0028B7A9 /* BFWPSingleManager.m */,
+			);
+			path = BFWPFramework;
+			sourceTree = "<group>";
+		};
+		A8E066C21ED7FEFA0028B7A9 /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				A8E066C31ED7FF2F0028B7A9 /* BFEncrypt.h */,
+				A8E066C41ED7FF2F0028B7A9 /* BFEncrypt.m */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+		A8E066C61ED923B10028B7A9 /* DataParser */ = {
+			isa = PBXGroup;
+			children = (
+				A8E066C71ED923E80028B7A9 /* BFWPParser.h */,
+				A8E066C81ED923E80028B7A9 /* BFWPParser.m */,
+			);
+			path = DataParser;
+			sourceTree = "<group>";
+		};
+		A8E066CA1ED959120028B7A9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A8E066CB1ED959FD0028B7A9 /* NSDictionary+BFJson.h */,
+				A8E066CC1ED959FD0028B7A9 /* NSDictionary+BFJson.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		BA6421205D114C2A2AF88B69 /* Pods */ = {
@@ -557,23 +619,29 @@
 				A83998491EC0932B001C9B30 /* AppDelegate.m in Sources */,
 				A8A21E941EC9BF4C000DFBB4 /* BFForgotPwdPhoneVC.m in Sources */,
 				A8A21E871EC9922C000DFBB4 /* UIButton+BFCustom.m in Sources */,
+				A8E066B31ED52F540028B7A9 /* GCDMulticastDelegate.m in Sources */,
 				A8A21E841EC980FC000DFBB4 /* BFRegisterPhoneVC.m in Sources */,
 				A8A21E771EC94FD7000DFBB4 /* UIViewController+BFCustom.m in Sources */,
 				A83998461EC0932B001C9B30 /* main.m in Sources */,
 				A83998841EC09A4E001C9B30 /* BFLoginVC.m in Sources */,
+				A8E066C51ED7FF2F0028B7A9 /* BFEncrypt.m in Sources */,
 				A859996C1ED2D8CC005F21B6 /* BFAlertView.m in Sources */,
 				A85999661ED2CBB1005F21B6 /* BFAppTheme.m in Sources */,
 				A8A21E8A1EC9A054000DFBB4 /* BFRegisterVerificationVC.m in Sources */,
-				A85999591ED2B52B005F21B6 /* BFSocketStream.m in Sources */,
+				A85999771ED51051005F21B6 /* TestClass.m in Sources */,
+				A8E066CD1ED959FD0028B7A9 /* NSDictionary+BFJson.m in Sources */,
 				A85999701ED2E088005F21B6 /* BFHUD.m in Sources */,
 				A8A21E911EC9BBF5000DFBB4 /* BFRegisterProtocolVC.m in Sources */,
 				A83998811EC09A2C001C9B30 /* BFBaseViewController.m in Sources */,
+				A85999741ED40E7C005F21B6 /* BFAppString.m in Sources */,
 				A83998871EC09B4D001C9B30 /* BFLoginNaviC.m in Sources */,
+				A8E066C91ED923E80028B7A9 /* BFWPParser.m in Sources */,
 				A8A21E741EC94B7A000DFBB4 /* UIView+BFCustom.m in Sources */,
-				A85999691ED2CF5D005F21B6 /* BFWPManager.m in Sources */,
 				A8A21E7F1EC9782D000DFBB4 /* BFNavigationBar.m in Sources */,
 				A8A21E971EC9C097000DFBB4 /* BFForgotPwdResetVC.m in Sources */,
 				A85999621ED2CA2A005F21B6 /* BFStoryboardTool.m in Sources */,
+				A8E066C11ED7B5FD0028B7A9 /* BFWPSingleManager.m in Sources */,
+				A8E066BE1ED687700028B7A9 /* BFWPStream.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

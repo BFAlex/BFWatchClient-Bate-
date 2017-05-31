@@ -8,12 +8,22 @@
 
 #import <Foundation/Foundation.h>
 
+//===================================================
+//测试服务器地址
+#define HostName @"120.25.120.222" // 测试
+#define HostPort 8866
+
+
+@class BFWPAutoPing;
+@class BFWPReconnect;
+
 @interface BFWPManager : NSObject
 
 #pragma mark - Property
 
 @property (nonatomic, strong, readonly) BFSocketStream *socketStream;
-
+@property (nonatomic, strong, readonly) BFWPAutoPing *wpAutoPing;
+@property (nonatomic, strong, readonly) BFWPReconnect *wpReconnect;
 
 #pragma mark - Method
 

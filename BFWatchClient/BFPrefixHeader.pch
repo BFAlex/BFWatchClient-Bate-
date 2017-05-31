@@ -16,16 +16,27 @@
  自定义日志
  */
 #ifdef DEBUG
-#define BFLog(...) NSLog(@"[%s %d]\n%@", __func__, __LINE__, __VA_ARGS__)
+#define BFLogTrace() NSLog(@"%s %d\n", __func__, __LINE__)   // 无参数
+#define BFLog(...) NSLog(@"%s %d\n%@", __func__, __LINE__, __VA_ARGS__) // 有参数
 #else
 #define BFLog(...)
 #endif
 
+#pragma mark - Definition
 #import "BFAppTheme.h"
+#import "BFAppString.h"
 #import "BFAppThemeDef.h"
 #import "BFStoryboardTool.h"
-#import "BFSocketStream.h"
 #import "AppLimit.h"
+#import "AppKey.h"
+
+#pragma mark - BFWPFramework
+//#import "BFSocketStream.h"
+//#import "BFWPManager.h"
+#import "BFWPStream.h"
+#import "BFWPSingleManager.h"
+
+#pragma mark - Tool
 #import "BFAlertView.h"
 #import "BFHUD.h"
 

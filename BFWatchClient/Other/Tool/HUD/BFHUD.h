@@ -10,7 +10,7 @@
 
 @interface BFHUD : NSObject
 
-+ (void)showWarnMessage:(NSString *)msg;
++ (void)showTipMessage:(NSString *)msg;
 + (void)showMessage:(NSString *)message;
 + (void)hide;
 

@@ -11,5 +11,6 @@
 @interface BFAlertView : NSObject
 
 + (void)showAlertViewExample;
++ (void)showErrorHUD;
 
 @end

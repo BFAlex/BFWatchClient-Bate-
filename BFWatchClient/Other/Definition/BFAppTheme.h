@@ -12,5 +12,8 @@
 @interface BFAppTheme : NSObject
 
 extern NSString *const appName;
+extern NSString *const appTestProperty;
+
+extern struct TestStruct{} tstStruct;
 
 @end
